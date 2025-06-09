@@ -66,7 +66,7 @@ This project demonstrates a **multi-robot surveillance system** using two Turtle
 ## 🔧 Features
 
 ### 🚘 AI Computer Vision (YOLOv8 + Bytetrack + OCR + Depth)
-- Detects vehicles using **YOLOv8** (object detection) + **Bytetrack**(object tracking)
+- Detects vehicles using **YOLOv8** (object detection) + **Bytetrack** (object tracking)
 - Recognizes license plates using **Easy OCR** with **depth-guided localization**.
 - Measures distance to license plate using a **depth camera** to enhance recognition accuracy.
 <p align="center">
