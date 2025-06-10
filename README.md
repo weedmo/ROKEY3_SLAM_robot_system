@@ -14,13 +14,13 @@
 
 # 🚓 TurtleBot4 Multi-Robot Park Patrol
 
-**Autonomous illegal parking detection system using TurtleBot4 robots**, developed as part of the **Doosan Rokey Bootcamp 3 in 2025**.
+**Autonomous illegal parking detection system using TurtleBot4 robots**, developed as part of the **Doosan Robotics Bootcamp 2025 – 3rd Cohort****.
 
 ---
 
 ## 📌 Overview
 
-This project demonstrates a **multi-robot surveillance system** using two TurtleBot4 robots. The robots autonomously patrol an area, detect parked vehicles, recognize license plates, and verify them against a database. If a violation is detected, the robot triggers a warning signal (🔊 *beep-boop alert*).
+This project demonstrates a **multi-robot surveillance system** using two TurtleBot4 robots. The robots autonomously patrol an area, detect parked vehicles, recognize license plates, and verify them against a database. If a vehicle is departing and there is a risk of collision, or if illegal parking is detected, the robot activates a warning signal (🔊 beep-boop alert).
 
 ---
 
@@ -65,8 +65,8 @@ This project demonstrates a **multi-robot surveillance system** using two Turtle
 
 ## 🔧 Features
 
-### 🚘 AI Computer Vision (YOLOv8 + OCR + Depth)
-- Detects vehicles using **YOLOv8** object detection.
+### 🚘 AI Computer Vision (YOLOv8 + Bytetrack + OCR + Depth)
+- Detects vehicles using **YOLOv8** (object detection) + **Bytetrack** (object tracking)
 - Recognizes license plates using **Easy OCR** with **depth-guided localization**.
 - Measures distance to license plate using a **depth camera** to enhance recognition accuracy.
 <p align="center">
