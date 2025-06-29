@@ -107,7 +107,7 @@ This project demonstrates a **multi-robot surveillance system** using two Turtle
 
 For a detailed explanation of this project, please refer to the following document:
 
-👉 [docs/F-1&2_지능1_이재호_배재성_전유진_정은영_김태영_김도엽_한준모.pdf](docs/F-1&2_지능1_이재호_배재성_전유진_정은영_김태영_김도엽_한준모.pdf)
+👉 [docs](docs/F-1&2_지능1_이재호_배재성_전유진_정은영_김태영_김도엽_한준모.pdf)
 
 
 ---
